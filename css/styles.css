@@ -16,14 +16,7 @@
     padding: 20px 0px 20px 0px;
 }
 
-.jumbotron {
-    padding: 70px 30px 70px 30px;
-    margin: 0px auto;
-    /* margin-bottom: 2rem; */
-    background-color: #28046b;
-    color: floralwhite;
-    border-radius: .3rem;  
-  }
+
 
   .address{
       font-size: 80%;
