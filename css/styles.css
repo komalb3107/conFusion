@@ -37,3 +37,18 @@
     padding-top: 10px;
   }
   
+  @media (min-width: 576px){
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    display: table-cell;
+}}
+
+.carda{
+    margin-left: 22px;
+}
+
+.topcard{
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
