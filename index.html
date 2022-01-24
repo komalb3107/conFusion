@@ -370,40 +370,8 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#mycarousel').carousel({
-                interval: 2000,
-            });
-            $("#carouselButton").click(function () {
-                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                    $("#mycarousel").carousel('pause');
-                    $("#carouselButton").children("span").removeClass('fa-pause');
-                    $("#carouselButton").children("span").addClass('fa-play');
-                }
-                else if ($("#carouselButton").children("span").hasClass('fa-play')) {
-                    $("#mycarousel").carousel('cycle');
-                    $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');
-                }
-            });
-
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('#login').click(function () {
-                $('#loginModal').modal('show');
-            });
-        });
-    </script>
-     <script>
-        $(document).ready(function () {
-            $('#table').click(function () {
-                $('#loginModal2').modal('show');
-            });
-        });
-    </script>
+    <script src="js/scripts.js"></script>
+   
 </body>
 
 </html>
